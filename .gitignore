@@ -1,2 +1,5 @@
+# python files
 code/.ipynb_checkpoints/*
 code/__pycache__/*
+#excel files
+**/.~*
