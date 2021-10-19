@@ -1,0 +1,48 @@
+gene_association.sgd.gz    This file is TAB delimited and contains all GO annotations for yeast genes (protein and RNA) 
+
+The gene_association.sgd.gz file uses the standard file format for
+gene_association files of the Gene Ontology (GO) Consortium.  A more
+complete description of the file format is found here:
+
+http://www.geneontology.org/GO.format.annotation.shtml
+
+Columns are:					Contents:
+
+ 1) DB						- database contributing the file (always "SGD" for this file)
+ 2) DB_Object_ID				- SGDID
+ 3) DB_Object_Symbol				- see below
+ 4) NOT 			(optional)	- 'NOT', 'contributes_to', or 'colocalizes_with' qualifier for a GO annotation, when needed
+ 5) GO ID					- unique numeric identifier for the GO term
+ 6) DB:Reference(|DB:Reference)			- the reference associated with the GO annotation
+ 7) Evidence					- the evidence code for the GO annotation
+ 8) With (or) From 		(optional)	- any With or From qualifier for the GO annotation
+ 9) Aspect					- which ontology the GO term belongs in
+10) DB_Object_Name(|Name) 	(optional)	- a name for the gene product in words, e.g. 'acid phosphatase'
+11) DB_Object_Synonym(|Synonym) (optional)	- see below
+12) DB_Object_Type				- type of object annotated, e.g. gene, protein, etc.
+13) taxon(|taxon)				- taxonomic identifier of species encoding gene product
+14) Date					- date GO annotation was made
+15) Assigned_by					- source of the annotation (e.g. SGD, UniProtKB, YeastFunc, bioPIXIE_MEFIT)
+
+Note on SGD nomenclature (pertaining to columns 3 and 11):
+
+Column 3 - When a Standard Gene Name (e.g. CDC28, COX2) has been
+        conferred, it will be present in Column 3. When no Gene Name
+        has been conferred, the Systematic Name (e.g. YAL001C,
+        YGR116W, YAL034W-A) will be present in column 3.
+
+Column 11 - The Systematic Name (e.g. YAL001C, YGR116W, YAL034W-A,
+	Q0010) will be the first name present in Column 11. Any other
+	names (except the Standard Name, which will be in Column 3 if
+	one exists), including Aliases used for the gene will also be
+	present in this column.
+
+Please note that ORFs classified as 'Dubious' are not included in this file, as there is currently 
+no experimental evidence that a gene product is produced in S. cerevisiae.
+
+This file is updated weekly. 
+
+For more information on the Gene Ontology (GO) project, see: 
+
+  http://www.geneontology.org/
+
