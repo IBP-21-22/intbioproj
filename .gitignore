@@ -3,3 +3,4 @@ code/.ipynb_checkpoints/*
 code/__pycache__/*
 #excel files
 **/.~*
+.venv
