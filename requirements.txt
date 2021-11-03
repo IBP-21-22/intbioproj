@@ -6,3 +6,4 @@ scipy==1.7.1
 jupyter==1.0.0
 openpyxl==3.0.9
 biopython==1.79
+tqdm==4.62.3
