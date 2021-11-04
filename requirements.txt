@@ -7,3 +7,5 @@ jupyter==1.0.0
 openpyxl==3.0.9
 biopython==1.79
 tqdm==4.62.3
+ujson==4.2.0
+graphviz==0.17
