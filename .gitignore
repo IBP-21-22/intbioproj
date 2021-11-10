@@ -4,3 +4,4 @@ code/__pycache__/*
 #excel files
 **/.~*
 .venv
+.DS_Store
