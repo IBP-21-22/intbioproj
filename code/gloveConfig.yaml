@@ -1,0 +1,28 @@
+# first step parameters
+## path to the input file, should be a pickle file storing a list of words
+input_filepath:
+## number of tokens in the training vocabulary
+vocab_size: 1024 # 4^5
+## size of the context window
+window_size: 10
+## the number of paritions to divide cooccurence matrix in 
+num_partitions: 10
+## chunk size of h5py.Dataset
+chunk_size: 1000000
+
+# when used in first step, specify the output directory of cooccurrence entries
+# when used in second step, specify where to read cooccurrence entries from
+cooccurrence_dir: ../processed_data/utrs/cooccurence
+
+# second step parameters
+## output path for the trained word vectors 
+output_filepath: ../model/utrs/gloveModel
+## pytorch training parameters
+batch_size: 32
+num_epochs: 100
+device: cuda
+learning_rate: 0.1
+## glove paremeters
+embedding_size: 50
+x_max: 100
+alpha: 0.75
