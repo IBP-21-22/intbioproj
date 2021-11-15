@@ -1,6 +1,8 @@
 # python files
 code/.ipynb_checkpoints/*
 code/__pycache__/*
+processed_data/utrs/cooccurence
 #excel files
 **/.~*
 .venv
+.DS_Store
