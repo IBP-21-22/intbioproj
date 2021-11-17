@@ -1,8 +1,8 @@
 # first step parameters
 ## size of the context window
-window_size: 20
+window_size: 5
 ## maximum vocab_size
-vocab_size: 5000
+vocab_size: 10000
 ## the number of paritions to divide cooccurence matrix in 
 num_partitions: 10
 ## chunk size of h5py.Dataset
