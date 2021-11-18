@@ -1,6 +1,6 @@
 # first step parameters
 ## size of the context window
-window_size: 5
+window_size: 11
 ## maximum vocab_size
 vocab_size: 10000
 ## the number of paritions to divide cooccurence matrix in 
@@ -21,6 +21,6 @@ num_epochs: 100
 device: cuda
 learning_rate: 0.1
 ## glove paremeters
-embedding_size: 30
+embedding_size: 100
 x_max: 100
 alpha: 0.75
