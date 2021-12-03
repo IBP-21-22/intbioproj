@@ -9,3 +9,5 @@ biopython==1.79
 tqdm==4.62.3
 ujson==4.2.0
 graphviz==0.17
+biopython==1.79
+plotly==5.4.0

@@ -1,8 +1,9 @@
 # python files
 code/.ipynb_checkpoints/*
 code/__pycache__/*
-processed_data/utrs/cooccurence
+processed_data/utrs
 #excel files
 **/.~*
 .venv
 .DS_Store
+nohup.out
