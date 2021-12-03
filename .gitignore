@@ -5,3 +5,5 @@ processed_data/utrs/*
 #excel files
 **/.~*
 .venv
+.DS_Store
+nohup.out
