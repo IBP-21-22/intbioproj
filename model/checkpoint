@@ -1,0 +1,2 @@
+model_checkpoint_path: "utrs_lstm_weightsYAM.ckpt"
+all_model_checkpoint_paths: "utrs_lstm_weightsYAM.ckpt"
